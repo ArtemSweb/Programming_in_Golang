@@ -12,18 +12,27 @@ package main
 import . "fmt"
 
 func main() {
-	var n int
-	Scan(&n)
+	// через циклы
+	/*  var n int
+    Scan(&n)
 
-	for n >= 10 {
+    for n >= 10 {
 		sum := 0
 		for n > 0 {
 			sum += n % 10
 			n /= 10
 		}
 		n = sum
-	}
-	Print(n)
+    }
+    Print(n)
+  */
+  //через формулу
+	var n int
+	Scan(&n)
+
+	dt := 1 + ((n - 1) % 9)
+
+	print(dt)
 }
 
 
