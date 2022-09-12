@@ -10,6 +10,6 @@ func main() {
 	test(&a, &b)
 }
 
-func(test)(x1 *int, x2 *int){
+func test(x1 *int, x2 *int){
 	fmt.Println(*x1 * *x2)
 }
